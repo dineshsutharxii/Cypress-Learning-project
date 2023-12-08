@@ -1,0 +1,3 @@
+Hello, I am inside sample.txt 
+Hello, I am inside sample.txt 
+Add me too in your file 
