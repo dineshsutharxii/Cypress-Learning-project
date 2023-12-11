@@ -31,7 +31,7 @@ describe('Css Selectors', () => {
     it('login user with already register email', () => {
 
         cy.get('#menu-icon').click()
-        // cy.get('#menu-item-50').click()
+        cy.get('#menu-item-50').click()
         cy.get('#username').type('adg.sfdfd@gmail.com')
         cy.get('#password').type('adg.sfdfd@gmail.com')
         cy.get(':nth-child(3) > .woocommerce-Button').click()
